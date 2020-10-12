@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%; /* = 10px (default 16px) */
+}
+
+body {
+  height: 100vh;
+  color: white;
+}
+
+body,
+input,
+button,
+textarea {
+  font-size: 1.8rem; /*rem = root element / em = element*/
+  line-height: 1;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+}
