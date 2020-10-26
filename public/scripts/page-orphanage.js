@@ -3,49 +3,47 @@ const options = {
   touchZoom: false,
   doubleClickZoom: false,
   scrollWheelZoom: false,
-  zoomControl: false,
-};
+  zoomControl: false
+}
 
-// get map values from map
-const lat = document.querySelector("span[data-lat]").dataset.lat;
-const lng = document.querySelector("span[data-lng]").dataset.lng;
+//Create map
+const map = L.map("mapid", options).setView([-22.7917975, -43.2962607, 1], 13);
 
-//create map
-const map = L.map("mapid", options).setView([lat, lng], 15);
-
-//create and add tileLayer
+//Create and add titleLayer
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(map);
 
-//create icon
+//Create icon
 const icon = L.icon({
-  iconUrl: "/images/map-marker.svg",
-  iconSize: [58, 68],
-  iconAnchor: [29, 68],
-  popAnchor: [170, 2],
+iconUrl: "/images/map-marker.svg",
+iconSize: [58, 68],
+iconAnchor: [29, 68],
+popupAnchor: [170, 2],
 });
 
-//create and add marker
-L.marker([lat, lng], { icon }).addTo(map);
+//Create and add marker
+L.marker([-22.7917975, -43.2962607, 1], { icon })
+.addTo(map)
 
-// image gallery
+/*Image galery*/ 
+
 function selectImage(event) {
-  const button = event.currentTarget;
+const button = event.currentTarget
 
-  // remove all .active classes
-  const buttons = document.querySelectorAll(".images button");
-  buttons.forEach(removeActiveClass);
+//Remover todas as classes active
+const buttons = document.querySelectorAll('.images button')
+buttons.forEach((button) => {
+  button.classList.remove("active")
+})
 
-  function removeActiveClass(button) {
-    button.classList.remove("active");
-  }
-  
-  // select a image clicked
-  const image = button.children[0];
-  const imageContainer = document.querySelector(".orphanage-details > img");
+//Selectionar a imagem clicada
+const image = button.children[0]
 
-  // att image container
-  imageContainer.src = image.src;
+//Atualizar o container da imagem
+const imageContainer = document.querySelector('.orphanage-details > img')
+imageContainer.src = image.src
 
-  // add .active class for this button
-  button.classList.add("active");
+
+//Adicionar acitve para o botao atual
+button.classList.add('active')
+
 }
