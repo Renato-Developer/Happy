@@ -29,7 +29,7 @@
       <img src="./public/images/demos/demohappy.gif" width="90%" alt="Happy Demo"/>
    </p>
 
-   > * See all in [`demo`](https://github.com/felipecastrosales/Happy/tree/master/public/images/demos) folder. 🧐📂
+   > * See all in [`demo`](https://github.com/renato-developer/Happy/tree/master/public/images/demos) folder. 🧐📂
 
 ---
 
@@ -94,7 +94,7 @@
 
    ```
    - Clone this repository:
-   $ git clone https://github.com/felipecastrosales/Happy Happy
+   $ git clone https://github.com/Renato-Developer/Happy Happy
 
    - Enter in directory:
    $ cd Happy
@@ -131,18 +131,18 @@
 <h2 align="center">License 📝</h2>
 
 <p align="center">
-   This repository is under MIT license. You can see the <a href="https://github.com/felipecastrosales/Happy/blob/master/LICENSE">LICENSE</a> file for more details. 😉
+   This repository is under MIT license. You can see the <a href="https://github.com/Renato-Developer/Happy/blob/master/LICENSE">LICENSE</a> file for more details. 😉
 </p>
 
    ---
 
-   >This project was developed with ❤️ by **[@Felipe Sales](https://www.linkedin.com/in/felipecastrosales/)**, with the instructor **[@MaykBrito](https://linkedin.com/in/maykbrito)**, during the **[Next Level Week](https://rocketseat.com.br/)** of **[Rocketseat](https://www.linkedin.com/school/rocketseat/about/)** 💜. <br> 
+   >This project was developed with ❤️ by **[@RenatoAugusto](https://www.linkedin.com/in/renato-augusto-php/)**, with the instructor **[@MaykBrito](https://linkedin.com/in/maykbrito)**, during the **[Next Level Week](https://rocketseat.com.br/)** of **[Rocketseat](https://www.linkedin.com/school/rocketseat/about/)** 💜. <br> 
    If it helped you, give it ⭐, it will help me too 😉 
 
 ---
 
    <div align="center">
 
-   [![Linkedin Badge](https://img.shields.io/badge/-Felipe%20Sales-292929?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/felipecastrosales/)](https://www.linkedin.com/in/felipecastrosales/)
+   [![Linkedin Badge](https://img.shields.io/badge/-Renato%20Augusto-292929?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/renato-augusto-php/)](https://www.linkedin.com/in/renato-augusto-php/)
 
    </div>
